@@ -68,6 +68,19 @@
 .header-photo img{
     width: 100%;
 }
+.header-last-img{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.logo-7{
+    width: 100%;
+    /* width: 55px;
+    height: 31px; */
+}
 
 
 
@@ -90,5 +103,9 @@
     }
     .header-photo img{
         width: 100%;
+    }
+    .header-last-img{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
     }
 }
