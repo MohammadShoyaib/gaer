@@ -96,6 +96,9 @@
         justify-content: space-between;
         gap: 20px;
     }
+    .header-paragraph{
+        padding-right: 20px;
+    }
     .haeder-details{
         flex-direction: column;
         /* display: grid;
