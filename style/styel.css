@@ -43,13 +43,13 @@
     font-size: 25px;
     font-weight: 700;
     margin-top: 5rem;
-    width: 552px;
+    /* width: 552px; */
 }
 .header-paragraph{
     color: #3A3A3A;
     font-size: 16px;
     font-weight: 600;
-    width: 490px;
+    /* width: 490px; */
 }
 .header-button{
     padding: 10px 24px;
@@ -88,7 +88,9 @@
 /* mobile */
 @media screen and (max-width:576px) {
     header{
-        padding: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100vw;
     }
     .header-top{
         display: grid;
@@ -105,7 +107,7 @@
         grid-template-columns: 1fr; */
     }
     .header-photo img{
-        width: 100%;
+        /* width: 1%; */
     }
     .header-last-img{
         display: grid;
